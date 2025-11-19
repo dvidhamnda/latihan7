@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 420px;
+            height: 260px;
+            border: 1px solid rgb(97, 97, 97);
+            border-radius: 15px;
+            border-bottom: 5px solid blue;
+        }
+        .header{
+            width: 80px;
+            border: 1px solid rgb(65, 127, 65);
+            background-color: rgb(175, 195, 175);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            margin-left: 6px;
+        }
+        .text{
+            color: rgb(0, 101, 0);
+            font-size: small;
+        }
+        .kotak{
+            display: flex;
+            gap: 295px;
+            margin-top: 10px;
+            margin-left: 9px;
+        }
+        .tengah{
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        .judul{
+            display: flex;
+            justify-content: center;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        .kolom{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        .kolom1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px dashed  black;
+            border-radius: 5px;
+            width: 70px;
+
+        }
+        .kolom2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px dashed  black;
+            border-radius: 5px;
+            width: 70px;
+        }
+        .kolom3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px dashed  black;
+            border-radius: 5px;
+            width: 70px;
+        }
+        .kolom1 span:first-child,
+        .kolom2 span:first-child,
+        .kolom3 span:first-child{
+            font-weight: bold;
+        }
+         .kolom1 span:last-child,
+        .kolom2 span:last-child,
+        .kolom3 span:last-child{
+            color: rgb(49, 48, 48);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kotak">
+        <div class="header">
+            <span class="text">Completed</span>
+        </div>
+        <i class="icon"><i class="hgi hgi-stroke hgi-more-vertical"></i></i>
+        </div>
+        <div class="tengah">
+        <img width="80px" src="twitch.png"></div>
+        <h3 class="title">Urban Dreams</h3>
+        <p class="judul">Live Gaming Spectacle Unveiled</p>
+    
+        <div class="kolom">
+            <div class="kolom1 ">
+            <span>50.7%</span>
+            <span>Traffic Up</span>
+            </div>
+            <div class="kolom2">
+                <span>20.1k</span>
+                <span>New Fans</span>
+            </div>
+            <div class="kolom3">
+                <span>$100k</span>
+                <span>Donated</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
